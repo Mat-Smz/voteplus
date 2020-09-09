@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View, Text, TextInput, StyleSheet } from "react-native";
 import Item from "./Item.js";
+import data from "./nosdeputes.json";
 
 class App extends Component {
   state = {
